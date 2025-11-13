@@ -1,0 +1,57 @@
+function setup() {
+  createCanvas(600, 700);
+  background(238, 220, 184);
+  noStroke();
+
+  fill(234, 167, 26); // amarelo f1
+  rect(225, 450, 225, 250);
+
+  fill(10, 20, 50); // azul f2
+  rect(0, 450, 225, 250);
+
+  fill(234, 167, 26); // amarelo f3
+  rect(0, 150, 150, 300);
+
+  fill(39, 103, 115); // azul f4
+  triangle(0, 150, 150, 300, 0, 450);
+
+  fill(234, 167, 26); // amarelo f10
+  rect(0, 0, 300, 150);
+
+  fill(204, 55, 13); // vermelho f6
+  arc(150, 150, 200, 200, PI, TWO_PI, PIE);
+
+  fill(39, 103, 115); // azul f5
+  rect(225, 0, 225, 150);
+
+  fill(204, 55, 13); // vermelho f7
+  rect(450, 450, 75, 250);
+
+  fill(204, 55, 13); // vermelho 8
+  rect(525, 150, 75, 300);
+
+  // Linhas do teclado
+  stroke(0);
+  strokeWeight(3);
+  line(225, 150, 225, 700);
+  line(300, 150, 300, 700);
+  line(375, 150, 375, 700);
+  line(450, 150, 450, 700);
+
+  // Teclas pretas
+  fill(0);
+  rect(205, 150, 40, 230);
+  rect(280, 150, 40, 230);
+  rect(355, 150, 40, 230);
+  rect(430, 150, 40, 230);
+  rect(505, 150, 40, 230);
+
+  noStroke();
+  fill(8, 82, 111); // azul 9
+  ellipse(450, 150, 200, 200);
+
+  fill(238, 220, 184); // texto
+  textSize(35);
+  textAlign(LEFT, BOTTOM);
+  text("BAUHAUS", 20, height - 20);
+}
